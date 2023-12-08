@@ -22,18 +22,19 @@ export default Controller.extend({
             link: 'i-i-s-laba-10-родитель-l',
             caption: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-родитель-l.caption'),
             title: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-родитель-l.title'),
-            icon: 'address card',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-laba-10-класс-уч-l',
             caption: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-класс-уч-l.caption'),
             title: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-класс-уч-l.title'),
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-laba-10-школа-l',
             caption: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-школа-l.caption'),
             title: i18n.t('forms.application.sitemap.laba-10.i-i-s-laba-10-школа-l.title'),
-            icon: 'phone',
+            icon: 'book',
             children: null
           }]
         }
