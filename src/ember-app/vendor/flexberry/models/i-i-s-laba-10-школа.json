@@ -1,0 +1,80 @@
+﻿{
+  "name": "IISLaba_10Школа",
+  "modelName": "i-i-s-laba-10-школа",
+  "className": "Школа",
+  "nameSpace": "IIS.Laba_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "назв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "ученик",
+      "relatedTo": "i-i-s-laba-10-ученик",
+      "inverse": "школа"
+    },
+    {
+      "name": "учитель",
+      "relatedTo": "i-i-s-laba-10-учитель",
+      "inverse": "школа"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ШколаE",
+      "modelName": "i-i-s-laba-10-школа",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "УченикE",
+          "caption": "Ученик",
+          "name": "ученик",
+          "relatedTo": "i-i-s-laba-10-ученик",
+          "inverse": null
+        },
+        {
+          "projectionName": "УчительE",
+          "caption": "Учитель",
+          "name": "учитель",
+          "relatedTo": "i-i-s-laba-10-учитель",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ШколаL",
+      "modelName": "i-i-s-laba-10-школа",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

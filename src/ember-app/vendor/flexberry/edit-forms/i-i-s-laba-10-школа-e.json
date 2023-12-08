@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Школа",
+  "name": "IISLaba_10ШколаE",
+  "className": "ШколаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-laba-10-школа",
+      "modelProjection": "ШколаE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-laba-10-родитель-e",
+  "editForm": "i-i-s-laba-10-родитель-e",
+  "external": false,
+  "caption": "Родитель",
+  "name": "IISLaba_10РодительL",
+  "className": "РодительL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-laba-10-родитель",
+      "modelProjection": "РодительL"
+    }
+  ]
+}

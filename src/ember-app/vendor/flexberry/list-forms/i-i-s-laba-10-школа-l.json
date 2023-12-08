@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-laba-10-школа-e",
+  "editForm": "i-i-s-laba-10-школа-e",
+  "external": false,
+  "caption": "Школа",
+  "name": "IISLaba_10ШколаL",
+  "className": "ШколаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-laba-10-школа",
+      "modelProjection": "ШколаL"
+    }
+  ]
+}

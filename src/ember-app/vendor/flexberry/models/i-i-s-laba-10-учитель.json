@@ -1,0 +1,48 @@
+﻿{
+  "name": "IISLaba_10Учитель",
+  "modelName": "i-i-s-laba-10-учитель",
+  "className": "Учитель",
+  "nameSpace": "IIS.Laba_10",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фио",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "школа",
+      "relatedTo": "i-i-s-laba-10-школа",
+      "inverse": "учитель"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "УчительE",
+      "modelName": "i-i-s-laba-10-учитель",
+      "attrs": [
+        {
+          "name": "фио",
+          "caption": "Фио",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Родитель",
+  "name": "IISLaba_10РодительE",
+  "className": "РодительE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-laba-10-родитель",
+      "modelProjection": "РодительE"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿{
+  "applicationCaption": "Laba_10",
+  "applicationTitle": "Laba_10",
+  "items": [
+    {
+      "link": null,
+      "menuName": "laba-10",
+      "caption": "Laba_10",
+      "title": "Laba_10",
+      "children": [
+        {
+          "link": "i-i-s-laba-10-родитель-l",
+          "menuName": null,
+          "caption": "Родитель",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-laba-10-класс-уч-l",
+          "menuName": null,
+          "caption": "Класс уч",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-laba-10-школа-l",
+          "menuName": null,
+          "caption": "Школа",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

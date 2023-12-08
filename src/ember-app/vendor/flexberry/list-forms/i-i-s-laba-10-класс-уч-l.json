@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-laba-10-класс-уч-e",
+  "editForm": "i-i-s-laba-10-класс-уч-e",
+  "external": false,
+  "caption": "Класс уч",
+  "name": "IISLaba_10КлассУчL",
+  "className": "КлассУчL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-laba-10-класс-уч",
+      "modelProjection": "КлассУчL"
+    }
+  ]
+}
