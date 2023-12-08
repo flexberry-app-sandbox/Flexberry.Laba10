@@ -63,7 +63,7 @@
             {
               "name": "назв",
               "caption": "Название",
-              "hidden": false,
+              "hidden": true,
               "index": 2
             }
           ],
