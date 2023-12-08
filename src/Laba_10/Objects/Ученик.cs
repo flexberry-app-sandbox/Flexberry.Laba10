@@ -32,6 +32,7 @@ namespace IIS.Laba_10
             "ФИО as \'ФИО\'",
             "КлассУч as \'Название\'",
             "КлассУч.Назв as \'Название\'"}, Hidden=new string[] {
+            "КлассУч",
             "КлассУч.Назв"})]
     [MasterViewDefineAttribute("УченикE", "КлассУч", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Название")]
     public class Ученик : ICSSoft.STORMNET.DataObject

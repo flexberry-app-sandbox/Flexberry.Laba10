@@ -58,7 +58,7 @@
           "lookupValueField": "название",
           "relationName": "КлассУч",
           "belongsTo": [],
-          "hidden": false,
+          "hidden": true,
           "attrs": [
             {
               "name": "назв",
