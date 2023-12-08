@@ -45,7 +45,7 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('УченикE', 'i-i-s-laba-10-ученик', {
     фИО: attr('ФИО', { index: 0 }),
     классУч: belongsTo('i-i-s-laba-10-класс-уч', 'Название', {
-      назв: attr('Название', { index: 2, hidden: true })
+      назв: attr('Название', { index: 2 })
     }, { index: 1, hidden: true })
   });
 };

@@ -39,7 +39,7 @@ export let defineProjections = function (modelClass) {
     ученик: hasMany('i-i-s-laba-10-ученик', 'Ученик', {
       фИО: attr('ФИО', { index: 0 }),
       классУч: belongsTo('i-i-s-laba-10-класс-уч', 'Название', {
-        назв: attr('Название', { index: 2, hidden: true })
+        назв: attr('Название', { index: 2 })
       }, { index: 1, hidden: true })
     }),
     учитель: hasMany('i-i-s-laba-10-учитель', 'Учитель', {
