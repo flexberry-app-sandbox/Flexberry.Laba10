@@ -52,7 +52,29 @@
           "index": 0
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Название",
+          "lookupValueField": "название",
+          "relationName": "КлассУч",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "назв",
+              "caption": "Название",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Название",
+          "name": "классУч",
+          "relatedTo": "i-i-s-laba-10-класс-уч",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

@@ -29,7 +29,10 @@ namespace IIS.Laba_10
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("УченикE", new string[] {
-            "ФИО as \'ФИО\'"})]
+            "ФИО as \'ФИО\'",
+            "КлассУч as \'Название\'",
+            "КлассУч.Назв as \'Название\'"})]
+    [MasterViewDefineAttribute("УченикE", "КлассУч", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Название")]
     public class Ученик : ICSSoft.STORMNET.DataObject
     {
         

@@ -37,7 +37,10 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ШколаE', 'i-i-s-laba-10-школа', {
     назв: attr('Назв', { index: 0 }),
     ученик: hasMany('i-i-s-laba-10-ученик', 'Ученик', {
-      фИО: attr('ФИО', { index: 0 })
+      фИО: attr('ФИО', { index: 0 }),
+      классУч: belongsTo('i-i-s-laba-10-класс-уч', 'Название', {
+        назв: attr('Название', { index: 2 })
+      }, { index: 1, displayMemberPath: 'название' })
     }),
     учитель: hasMany('i-i-s-laba-10-учитель', 'Учитель', {
       фио: attr('Фио', { index: 0 })
