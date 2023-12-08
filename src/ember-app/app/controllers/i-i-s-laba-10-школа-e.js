@@ -19,6 +19,18 @@ export default EditFormController.extend({
           };
           break;
 
+        case 'i-i-s-laba-10-ученик+родитель':
+          cellComponent.componentProperties = {
+            choose: 'showLookupDialog',
+            remove: 'removeLookupValue',
+            displayAttributeName: 'фио',
+            required: true,
+            relationName: 'родитель',
+            projection: 'РодительL',
+            autocomplete: true,
+          };
+          break;
+
       }
     }
 

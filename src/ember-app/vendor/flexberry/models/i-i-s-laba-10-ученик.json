@@ -73,6 +73,27 @@
           "name": "классУч",
           "relatedTo": "i-i-s-laba-10-класс-уч",
           "inverse": null
+        },
+        {
+          "lookupValue": "Фио",
+          "lookupValueField": "фио",
+          "relationName": "Родитель",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фио",
+              "caption": "Фио",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Родитель",
+          "name": "родитель",
+          "relatedTo": "i-i-s-laba-10-родитель",
+          "inverse": null
         }
       ],
       "hasMany": []

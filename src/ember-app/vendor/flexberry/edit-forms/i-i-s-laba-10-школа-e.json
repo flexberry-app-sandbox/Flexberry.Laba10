@@ -7,6 +7,14 @@
       "relationName": "Ученик.КлассУч",
       "projection": "КлассУчL",
       "detailModelName": "i-i-s-laba-10-ученик"
+    },
+    {
+      "master": "родитель",
+      "displayAttributeName": "фио",
+      "required": true,
+      "relationName": "Ученик.Родитель",
+      "projection": "РодительL",
+      "detailModelName": "i-i-s-laba-10-ученик"
     }
   ],
   "external": false,
